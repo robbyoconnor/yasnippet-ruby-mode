@@ -5,9 +5,9 @@
 class ${1:ClassName} < DelegateClass(${2:ParentClass})
   def initialize(${3:args})
     super(${4:del_obj})
-    
+
     $0
   end
-  
-  
+
+
 end
