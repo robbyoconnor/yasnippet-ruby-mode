@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: hfunc
+# key: hfunc
+# --
+
+func $1(res http.ResponseWriter, req *http.Request) {
+  $2
+}

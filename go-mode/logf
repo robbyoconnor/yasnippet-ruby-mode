@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: logf
+# key: logf
+# --
+
+log.Fatal($1)

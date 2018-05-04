@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bfunc
+# key: bfunc
+# --
+
+func $1(c buffalo.Context) error {
+  $2
+}

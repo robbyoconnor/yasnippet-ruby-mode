@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: errf
+# key: errf
+# --
+if err != nil {
+  log.Fatal(err)
+}

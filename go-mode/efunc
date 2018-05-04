@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: efunc
+# key: efunc
+# --
+
+func $1(ctx *echo.Context) error {
+}

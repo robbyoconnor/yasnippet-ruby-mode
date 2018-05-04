@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tsu
+# key: tsu
+# --
+
+ts := httptest.NewServer(${1:App()})
+defer ts.Close()

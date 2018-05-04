@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: errtf
+# key: errtf
+# --
+
+if err != nil {
+  t.Fatalf("$1", $2)
+}

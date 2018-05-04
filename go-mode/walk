@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: walk
+# key: walk
+# --
+
+err ${1::=} filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
+  $2
+  return nil
+})

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: errv
+# key: errv
+# --
+
+if err != nil {
+  return ${1:nil}, errors.WithStack(err)
+}

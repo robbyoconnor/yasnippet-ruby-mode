@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: suite
+# key: suite
+# --
+
+type $1Suite struct {
+  th.Suite
+}
+
+func Test$1Suite(t *testing.T) {
+  suite.Run(t, &$1Suite{})
+}

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: inst
+# key: inst
+# --
+
+fmt.Printf("### $1 -> %T\n", $1)

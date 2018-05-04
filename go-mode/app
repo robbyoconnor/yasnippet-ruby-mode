@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: app
+# key: app
+# --
+func App() http.Handler {
+  $1
+}

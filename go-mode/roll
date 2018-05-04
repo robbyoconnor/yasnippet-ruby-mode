@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: roll
+# key: roll
+# --
+ th.Rollback(func(tx pop.Connection) {
+
+})

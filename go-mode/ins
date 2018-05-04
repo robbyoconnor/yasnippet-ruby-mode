@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ins
+# key: ins
+# --
+
+pretty.Println("### $1 ->", $1)

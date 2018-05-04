@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: stest
+# key: stest
+# --
+t.Run("$1", func(st *testing.T) {
+  r := require.New(st)
+  $2
+})

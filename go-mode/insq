@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: insq
+# key: insq
+# --
+
+pretty.Printf("### $1 -> %q\n", $1)

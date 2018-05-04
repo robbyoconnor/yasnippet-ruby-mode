@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: bmid
+# key: bmid
+# --
+func $1(next buffalo.Handler) buffalo.Handler {
+  return func(c buffalo.Context) error {
+    $2
+  }
+}

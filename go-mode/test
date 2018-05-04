@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: test
+# key: test
+# --
+
+func Test_$1(t *testing.T) {
+  ${2:r := require.New(t)}
+}
