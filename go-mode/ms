@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ms
+# key: ms
+# --
+
+func (ms *ModelSuite) $1 {
+  $2
+}

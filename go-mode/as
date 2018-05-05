@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: as
+# key: as
+# --
+func (as *ActionSuite)  $1() {
+  $2
+}

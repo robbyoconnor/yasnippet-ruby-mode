@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bpatch
+# key: bpatch
+# --
+
+${1:app}.PATCH("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})

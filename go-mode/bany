@@ -1,0 +1,8 @@
+## -*- mode: snippet -*-
+# name: bany
+# key: bany
+# --
+
+${1:app}.ANY("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})

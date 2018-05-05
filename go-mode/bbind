@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bbind
+# key: bbind
+# --
+if err := c.Bind(u); err != nil {
+  return err
+}

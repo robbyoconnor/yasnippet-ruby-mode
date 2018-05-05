@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bat
+# key: bat
+# --
+
+func (as *ActionSuite) Test_$1() {
+  $2
+}

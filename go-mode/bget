@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bget
+# key: bget
+# --
+
+${1:app}.GET("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})

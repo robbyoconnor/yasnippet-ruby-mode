@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bgroup
+# key: bgroup
+# --
+
+$1 := ${2:app}.Group("$3")

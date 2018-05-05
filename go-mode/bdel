@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bdel
+# key: bdel
+# --
+
+${1:app}.DELETE("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})

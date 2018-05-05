@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bpost
+# key: bpost
+# --
+
+${1:app}.POST("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})

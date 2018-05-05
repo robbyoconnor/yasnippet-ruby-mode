@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bskipmid
+# key: bskipmid
+# --
+${1:app}.Middleware.Skip($2)

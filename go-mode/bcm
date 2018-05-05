@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bcm
+# key: bcm
+# --
+${1:app}.Middleware.Clear()

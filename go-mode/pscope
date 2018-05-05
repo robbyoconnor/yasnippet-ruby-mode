@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: pscope
+# key: pscope
+# --
+func $1($2) pop.ScopeFunc {
+  return func(q *pop.Query) *pop.Query {
+    $3
+  }
+  return q.Where("$4")
+}
+

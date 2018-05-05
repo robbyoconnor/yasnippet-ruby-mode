@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bhead
+# key: bhead
+# --
+
+${1:app}.HEAD("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})

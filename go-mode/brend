@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: brend
+# key: brend
+# --
+
+func $1(w io.Writer, d render.Data) error {
+  $2
+  return nil
+}

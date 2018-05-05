@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bput
+# key: bput
+# --
+${1:app}.PUT("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})

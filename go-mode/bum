@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bum
+# key: bum
+# --
+
+${1:app}.Use($2)

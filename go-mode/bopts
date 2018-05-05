@@ -1,0 +1,8 @@
+## -*- mode: snippet -*-
+# name: bopts
+# key: bopts
+# --
+
+${1:app}.OPTIONS("$2", ${3:func (c buffalo.Context) error {
+  $4
+}})
