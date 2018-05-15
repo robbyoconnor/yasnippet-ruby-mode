@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: bac
+# key: bac
+# --
+
+
+func $1(c buffalo.Context) error {
+  ${2:return c.Render(200, nil)}
+}

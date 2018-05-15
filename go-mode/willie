@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: willie
+# key: willie
+# --
+
+w := willie.New($1)
