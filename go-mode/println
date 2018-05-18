@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: println
+# key: println
+# --
+
+fmt.Println($1)
