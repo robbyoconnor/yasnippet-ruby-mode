@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: fnval
+# key: fnval
+# --
+&validators.FuncValidator{
+  Name:    "$1",
+  Field:   "$2",
+  Message: "$3",
+  Fn: func() bool {
+    ${4:return false}
+    }
+},
