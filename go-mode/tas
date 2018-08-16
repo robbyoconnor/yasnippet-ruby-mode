@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: tas
+# key: tas
+# --
+
+func (as *ActionSuite)  Test_$1() {
+  $2
+}
