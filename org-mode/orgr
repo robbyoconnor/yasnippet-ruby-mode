@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: orgr
+# key: orgr
+# --
+
+#    -*- mode: org -*-
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:1
+#+REVEAL_MARGIN: 0.2
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: night
+#+REVEAL_HLEVEL: 1
+#+REVEAL_EXTRA_CSS: ./$1
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+
+#+TITLE: $2
+#+AUTHOR: Robby O'Connor
+#+EMAIL: robby.oconnor@gmail.com
+
+$3
