@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:tfvar
+# key: tfvar
+# --
+
+export TF_VAR_$1="$2"
